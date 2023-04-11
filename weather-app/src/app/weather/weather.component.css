@@ -1,0 +1,43 @@
+mat-card-content,
+mat-card-header,
+mat-card-actions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+.night {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://cff2.earth.com/uploads/2022/10/04064310/Moon-scaled.jpg');
+
+    background-size: cover;
+    color: white;
+}
+
+.day {
+    background-image:
+    linear-gradient(to bottom, rgba(61, 75, 158, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://www.rd.com/wp-content/uploads/2021/01/GettyImages-937685184-e1611587244832.jpg');
+
+    background-size: cover;
+    color: white;
+}
+
+.map{
+    text-align: center;
+    padding: 15px;
+    background-color:rgb(29, 113, 242);
+    color: white;
+    font-weight: 500;
+}
+
+.all{
+    margin : 15px auto ;
+}
+
+
+

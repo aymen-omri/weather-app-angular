@@ -1,0 +1,9 @@
+  <mat-toolbar color="primary">
+    <span [routerLink]="['home']" style="cursor:pointer;"><mat-icon>wb_cloudy</mat-icon> Weather app</span>
+    <div class="spacer"></div>
+    <div class="items">
+      <button mat-button [routerLink]="['/home']">Home</button>
+      <button mat-button [routerLink]="['/weather']">Weather Details</button>
+      <button mat-button [routerLink]="['/favourite']">Favourite cities</button>
+    </div>
+  </mat-toolbar>

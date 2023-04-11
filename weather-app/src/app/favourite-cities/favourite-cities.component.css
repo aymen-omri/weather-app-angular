@@ -1,0 +1,15 @@
+.all {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-weight: 600;
+  color: white;
+  height: 80vh;
+}
+
+.all table {
+  width: 600px;
+}

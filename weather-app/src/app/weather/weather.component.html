@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="row all">
+    <div class="col-lg">
+      <mat-card class="mat-elevation-z6"
+        [ngClass]="{'day':currentTempInfo.isDay == 1,'night':currentTempInfo.isDay == 0 }">
+        <mat-card-header>
+          <mat-card-title>{{ currentTempInfo.regionName }}, {{ currentTempInfo.cityName }}</mat-card-title>
+          <mat-card-subtitle>{{ currentTempInfo.countryName }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="current">
+            <p>Current date: {{ currentTempInfo.currentDate }}</p>
+            <img [src]="currentTempInfo.icon" alt="temp logo">
+            <p>{{ currentTempInfo.conditionDesc }}</p>
+            <p>Current temperature: {{ currentTempInfo.currentTempC }}°C | {{ currentTempInfo.currentTempF }}F</p>
+            <p>Feels like: {{ currentTempInfo.feelsLikeC }}°C | {{ currentTempInfo.feelsLikeF }}F </p>
+            <p>Pressure: {{ currentTempInfo.pressure }} | Humdidity: {{ currentTempInfo.humidity }}</p>
+          </div>
+          <mat-divider></mat-divider>
+          <div class="row hours">
+            <div class="col" *ngFor="let elem of currentTempInfo.hours">
+              <img [src]="elem.condition.icon" alt="">
+              <p>{{ elem.temp_c }}°C | {{ elem.temp_f }}F</p>
+              <p>Hour: {{ elem.time_epoch }}</p>
+            </div>
+          </div>
+          <mat-divider></mat-divider>
+          <div class="row days">
+            <div class="col" *ngFor="let elem of currentTempInfo.days">
+              <img [src]="elem.day.condition.icon" alt="">
+              <p>{{ elem.day.avgtemp_c }}°C | {{ elem.day.avgtemp_f }}F </p>
+              <p>Day: {{ elem.date }}</p>
+            </div>
+          </div>
+
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="accent" (click)="saveCitiesToLocalStorage()">Save</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="col-lg map mat-elevation-z6">
+      <h1>Choose a city</h1>
+      <app-map (mapClick)="receiveCoords($event)"></app-map>
+    </div>
+  </div>
+</div>
