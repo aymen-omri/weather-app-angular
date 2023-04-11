@@ -56,10 +56,10 @@ And you will have a fully working weather angular application!
 
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/101984852/231240479-89bab815-4133-402d-9c66-9984c2d1faaa.png" width="100" />
-  <img src="https://user-images.githubusercontent.com/101984852/231240518-6f8d14df-40c9-4d49-886c-98d34282b864.png" width="100" /> 
-  <img src="https://user-images.githubusercontent.com/101984852/231240546-4c4e4575-1d27-4019-8ba4-9361a33974d9.png" width="100" />
-   <img src="https://user-images.githubusercontent.com/101984852/231240552-99e16e8d-134d-445b-b815-f2547e42bb31.png" width="100" />
+  <img src="https://user-images.githubusercontent.com/101984852/231240479-89bab815-4133-402d-9c66-9984c2d1faaa.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/101984852/231240518-6f8d14df-40c9-4d49-886c-98d34282b864.png" width="400" /> 
+  <img src="https://user-images.githubusercontent.com/101984852/231240546-4c4e4575-1d27-4019-8ba4-9361a33974d9.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/101984852/231240552-99e16e8d-134d-445b-b815-f2547e42bb31.png" width="400" />
 </p>
 
 
