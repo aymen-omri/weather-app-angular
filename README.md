@@ -51,3 +51,14 @@ run the project:
   npm run start
 ```
 And you will have a fully working weather angular application!
+
+## Screenshots:
+
+<p float="left">
+  <img src="[image-url1](https://user-images.githubusercontent.com/101984852/231240479-89bab815-4133-402d-9c66-9984c2d1faaa.png)" width="100" />
+  <img src="[image-url2](https://user-images.githubusercontent.com/101984852/231240518-6f8d14df-40c9-4d49-886c-98d34282b864.png)" width="100" /> 
+  <img src="[image-url3](https://user-images.githubusercontent.com/101984852/231240546-4c4e4575-1d27-4019-8ba4-9361a33974d9.png)" width="100" />
+   <img src="[image-url3](https://user-images.githubusercontent.com/101984852/231240552-99e16e8d-134d-445b-b815-f2547e42bb31.png)" width="100" />
+</p>
+
+
